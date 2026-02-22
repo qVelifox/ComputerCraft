@@ -111,7 +111,7 @@ function CharBasedRender.Render(PixelBufer)
 
             for y_height_char=1, 3 do
                 for x_width_char=1, 2 do
-                    local _ = CharBasedRender.GetPixelColor(PixelBufer, x_width_char+x, y_height_char+y)
+                    local _ = CharBasedRender.GetPixelColor(PixelBufer, x + x_width_char - 1, y + y_height_char - 1)
                     table.insert(CharPixels, _ or '0')
                 end
             end
