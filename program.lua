@@ -196,7 +196,7 @@ function CharBasedRender.Render(PixelBufer)
 
             term.blit(char, foreGround, backGround)
 
-        endS
+        end
         print()
     end
 
