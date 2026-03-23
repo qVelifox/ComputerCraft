@@ -6,11 +6,6 @@ local OUTPUT_SIDE   = "back"
 local function banner()
   term.clear()
   term.setCursorPos(1, 1)
-  term.setTextColor(colors.yellow)
-  print(" +---------------------------------+")
-  print(" |   AUTO  VILLAGER  TRADER        |")
-  print(" |   CC:Tweaked + Plethora         |")
-  print(" +---------------------------------+")
   term.setTextColor(colors.white)
   print()
 end
